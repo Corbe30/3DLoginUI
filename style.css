@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    /* overflow: hidden; */
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#name-label{
+    font-family: 'Catamaran', sans-serif;
+    font-weight:600;
+}
+
+#name{
+    width:100%;
+    padding: 12px 10px 12px 37px;
+    box-sizing: border-box;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-size:7%; 
+    background-image:url(https://image.flaticon.com/icons/svg/747/747376.svg);
+}
+
+#email{
+    width:100%;
+    padding: 12px 10px 12px 37px;
+    box-sizing: border-box;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-size:7%; 
+    background-image:url(data:image/svg+xml;base64,PHN2ZyBpZD0iX3gzMV9feDJDXzUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0xOC43NSAyNGgtMTMuNWMtMS4yNCAwLTIuMjUtMS4wMDktMi4yNS0yLjI1di0xMC41YzAtMS4yNDEgMS4wMS0yLjI1IDIuMjUtMi4yNWgxMy41YzEuMjQgMCAyLjI1IDEuMDA5IDIuMjUgMi4yNXYxMC41YzAgMS4yNDEtMS4wMSAyLjI1LTIuMjUgMi4yNXptLTEzLjUtMTMuNWMtLjQxMyAwLS43NS4zMzYtLjc1Ljc1djEwLjVjMCAuNDE0LjMzNy43NS43NS43NWgxMy41Yy40MTMgMCAuNzUtLjMzNi43NS0uNzV2LTEwLjVjMC0uNDE0LS4zMzctLjc1LS43NS0uNzV6Ii8+PHBhdGggZD0ibTE3LjI1IDEwLjVjLS40MTQgMC0uNzUtLjMzNi0uNzUtLjc1di0zLjc1YzAtMi40ODEtMi4wMTktNC41LTQuNS00LjVzLTQuNSAyLjAxOS00LjUgNC41djMuNzVjMCAuNDE0LS4zMzYuNzUtLjc1Ljc1cy0uNzUtLjMzNi0uNzUtLjc1di0zLjc1YzAtMy4zMDkgMi42OTEtNiA2LTZzNiAyLjY5MSA2IDZ2My43NWMwIC40MTQtLjMzNi43NS0uNzUuNzV6Ii8+PHBhdGggZD0ibTEyIDE3Yy0xLjEwMyAwLTItLjg5Ny0yLTJzLjg5Ny0yIDItMiAyIC44OTcgMiAyLS44OTcgMi0yIDJ6bTAtMi41Yy0uMjc1IDAtLjUuMjI0LS41LjVzLjIyNS41LjUuNS41LS4yMjQuNS0uNS0uMjI1LS41LS41LS41eiIvPjxwYXRoIGQ9Im0xMiAyMGMtLjQxNCAwLS43NS0uMzM2LS43NS0uNzV2LTIuNzVjMC0uNDE0LjMzNi0uNzUuNzUtLjc1cy43NS4zMzYuNzUuNzV2Mi43NWMwIC40MTQtLjMzNi43NS0uNzUuNzV6Ii8+PC9zdmc+);
+}
+
+
+.card{
+    /* background-color:white; */
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
+    height:400px;
+    width:300px;
+    padding: 150px 50px 0px 50px;
+    margin-top: 220px;
+    z-index:2;
+
+    /* shadow */
+    -webkit-border-radius: 50px; 
+    border-radius: 50px; 
+    box-shadow: 0px 24px 24px #d9d9d9;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
