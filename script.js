@@ -34,7 +34,7 @@ var parent = new THREE.Group();
 scene.add( parent );
 
 gltfLoader.load(
-    '/static/scene3.glb',
+    './static/scene3.glb',
     function (gltf)
     {
         // console.log(gltf.scenes);
