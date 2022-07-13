@@ -3,7 +3,7 @@ import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
 import { OrbitControls } from 'https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js';
 
 import * as dat from "https://cdn.skypack.dev/dat.gui@0.7.7"
-import { GLTFLoader } from "https://unpkg.com/browse/three@0.91.0/examples/js/loaders/GLTFLoader.js"
+import { GLTFLoader } from "https://unpkg.com/three@0.91.0/examples/js/loaders/GLTFLoader.js"
 
 /**
  * Base
